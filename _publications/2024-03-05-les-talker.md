@@ -7,7 +7,7 @@ status: "Under Review"
 period: "Apr. 2024 - May 2025"
 link: "https://peterfanfan.github.io/LES-Talker/"
 excerpt: |
-  * Led the full research pipeline, from problem formulation to model design, experimentation, and paper writing.
-  * Proposed the Linear Emotion Space (LES), a novel interpretable framework enabling fine-grained emotion editing across types, intensities, and facial units.
-  * Designed LES-Talker with a universal Cross-Dimension Attention Network to align 3D model deformation with emotional control signals, achieving high-quality and controllable talking head generation.
+  - Led the full research pipeline, from problem formulation to model design, experimentation, and paper writing.
+  - Proposed the Linear Emotion Space (LES), a novel interpretable framework enabling fine-grained emotion editing across types, intensities, and facial units.
+  - Designed LES-Talker with a universal Cross-Dimension Attention Network to align 3D model deformation with emotional control signals, achieving high-quality and controllable talking head generation.
 --- 

@@ -14,7 +14,6 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <li>
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -35,18 +34,13 @@
     </h3>
     {% if post.venue %}
       <p class="archive__item-excerpt" itemprop="description">
-        {% if post.status == "Accepted" %}
-          Published in {{ post.venue }}, {{ post.date | date: "%Y" }}
-        {% else %}
-          {{ post.venue }}, {{ post.status }}, {{ post.date | date: "%Y" }}
-        {% endif %}
+        {{ post.authors }} • {{ post.period }}
       </p>
     {% endif %}
     {% if post.excerpt %}
       <div class="archive__item-excerpt" itemprop="description">
-        {{ post.excerpt }}
+        {{ post.excerpt | markdownify }}
       </div>
     {% endif %}
-    </li>
- </article>
+  </article>
 </div>
