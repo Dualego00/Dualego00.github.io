@@ -11,9 +11,41 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<h2>Under Review</h2>
+<ul>
+  {% for post in site.publications reversed %}
+    {% if post.status == "Under Review" %}
+      <li>
+        <strong>{{ post.title }}</strong><br>
+        <em>{{ post.authors }}</em><br>
+        {{ post.period }}<br>
+        {% if post.excerpt %}
+          <ul>
+            {{ post.excerpt | markdownify }}
+          </ul>
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>Accepted</h2>
+<ul>
+  {% for post in site.publications reversed %}
+    {% if post.status == "Accepted" %}
+      <li>
+        <strong>{{ post.title }}</strong><br>
+        <em>{{ post.authors }}</em><br>
+        {{ post.period }}<br>
+        {% if post.excerpt %}
+          <ul>
+            {{ post.excerpt | markdownify }}
+          </ul>
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 <!-- <h2>Under Review</h2>
 <ul>
