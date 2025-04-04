@@ -38,7 +38,11 @@
     {% endif %}
     {% if post.venue %}
       <p class="archive__item-excerpt" itemprop="description">
-        Published in {{ post.venue }}{% if post.status %}, {{ post.status }}{% endif %}, {{ post.date | date: "%Y" }}
+        {% if post.status == "Accepted" %}
+          Published in {{ post.venue }}, {{ post.date | date: "%Y" }}
+        {% else %}
+          {{ post.venue }}, {{ post.status }}, {{ post.date | date: "%Y" }}
+        {% endif %}
       </p>
     {% endif %}
     {% if post.excerpt %}
