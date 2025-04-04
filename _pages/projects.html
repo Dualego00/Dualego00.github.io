@@ -1,0 +1,27 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+collection: projects
+---
+
+{% include base_path %}
+
+<h2>Projects Experience</h2>
+<ul>
+  <li>
+    <strong>Public Transportation Management System - Android App Development</strong><br>
+    <em>Team Leader</em><br>
+    Oct. 2024 - Dec. 2024<br>
+    <ul>
+      <li>Led a team in developing a full-stack Android application for public transportation management, utilizing tools such as MySQL, Python, C++, and Qt Creator.</li>
+      <li>Designed a low-redundancy relational database tailored to project needs, and implemented a user-friendly visual interface with strong human-computer interaction capabilities.</li>
+      <li>Proposed a technical framework for lightweight management systems with similar structures, enabling easy expansion and portability across different use cases.</li>
+    </ul>
+  </li>
+</ul>
+
+{% for post in site.projects %}
+  {% include archive-single.html %}
+{% endfor %} 
