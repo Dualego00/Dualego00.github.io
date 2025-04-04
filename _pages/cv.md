@@ -11,35 +11,45 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* BEng in Computer Science and Technology, Big Data and Intelligence Track, Xidian University, 2022-2026 (Expected)
+  * GPA: 4.0/4.0
+  * Rank: 2/1500+ (first year), 1/476 (second year), 1/105 (third year)
 
-Work experience
+Academic Research
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* LES-Talker: Fine-Grained Emotion Editing in Linear Emotion Space (First Author, Under Review at ICCV 2025)
+  * Led the full research pipeline, from problem formulation to model design, experimentation, and paper writing
+  * Proposed the Linear Emotion Space (LES), a novel interpretable framework enabling fine-grained emotion editing
+  * Designed LES-Talker with a universal Cross-Dimension Attention Network to align 3D model deformation with emotional control signals
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* KAN-Face: Efficient Resource Usage and Precision Lip-Sync (Co-author, Accepted at ICASSP 2025)
+  * Contributed to the design and refinement of a lightweight framework utilizing KANs
+  * Participated in the development and review of the Lip-Sync Enhancement Module
+  * Actively involved in technical discussions and rebuttal preparation
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* EmoSpeaker: Emotion-Controlled Talking Face Generation (Co-author, Under Review at IEEE TMM)
+  * Assisted in a one-shot framework capable of fine-grained emotional control and precise lip synchronization
+  * Contributed to the design of an audio decoupling mechanism guided by facial attributes
+  * Actively involved in paper revision and rebuttal writing
+
+Projects Experience
+======
+* Public Transportation Management System - Android App Development (Team Leader)
+  * Led a team in developing a full-stack Android application
+  * Designed a low-redundancy relational database tailored to project needs
+  * Proposed a technical framework for lightweight management systems
+
+Awards
+======
+* Champion — Task 3 in AAAI2024 Workshop on AI for Digital Human, BDIV Lab
+  * Achieved top scores across four evaluation metrics in both video- and audio-based tracks
+  * Modified SadTalker by removing PoseNet and redesigning ExpNet for direct 70D 3DMM prediction
+  * Enhanced realism via innovative blinking and lip-sync strategies using OpenFace and Hubert
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Developer Tools: Python, Pytorch, C, Assembly Language, MySQL, C++, Java
+* Languages: English (TOEFL), Chinese (native tongue)
 
 Publications
 ======
