@@ -1,10 +1,13 @@
 ---
-title: "EmoSpeaker: Emotion-Aware Text-to-Speech Synthesis"
-collection: publications
-permalink: /publication/2024-03-03-emospeaker
-excerpt: 'Led the research pipeline, from problem formulation to model design, experimentation, and paper writing. Proposed EmoSpeaker, a novel framework that enables emotion-aware text-to-speech synthesis. Designed a multi-task learning approach to jointly optimize speech quality and emotional expressiveness, achieving state-of-the-art performance on multiple benchmarks.'
-date: 2024-03-03
-venue: 'Under Review at ICASSP 2025'
-paperurl: 'https://github.com/Dualego00/EmoSpeaker'
-citation: 'Qian, Z. (2024). &quot;EmoSpeaker: Emotion-Aware Text-to-Speech Synthesis.&quot; <i>Under Review at ICASSP 2025</i>.'
---- 
+title: "EmoSpeaker: Emotion-Controlled Talking Face Generation"
+date: 2024-04-05
+authors: "Co-author (Under Review at IEEE TMM)"
+period: "Nov. 2023 - Feb. 2025"
+link: "https://peterfanfan.github.io/EmoSpeaker/"
+---
+
+## Research Highlights
+
+- Assisted in a one-shot framework capable of fine-grained emotional control and precise lip synchronization.
+- Contributed to the design of an audio decoupling mechanism guided by facial attributes.
+- Actively involved in paper revision and rebuttal writing, focusing on technical clarity, reviewer responses, and refinement of contributions. 
