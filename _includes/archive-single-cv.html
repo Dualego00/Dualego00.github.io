@@ -33,9 +33,6 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
     {% if post.venue %}
       <p class="archive__item-excerpt" itemprop="description">
         {% if post.status == "Accepted" %}
@@ -47,7 +44,7 @@
     {% endif %}
     {% if post.excerpt %}
       <div class="archive__item-excerpt" itemprop="description">
-        {{ post.excerpt | markdownify | remove: "<h2>Research Highlights</h2>" }}
+        {{ post.excerpt }}
       </div>
     {% endif %}
     </li>
