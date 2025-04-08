@@ -49,4 +49,4 @@ Awards
 Skills
 ======
 * Developer Tools: Python, Pytorch, C, Assembly Language, MySQL, C++, Java
-* Languages: English (TOEFL), Chinese (native tongue)
+* Languages: English (TOEFL iBT 96), Chinese (native)
