@@ -26,40 +26,6 @@ $(document).ready(function () {
   $('#theme-toggle').on('click', function () {
     toggleTheme();
   });
-  
-  // Listen for language change event
-  $(document).on('languageChanged', function(e) {
-    // Make sure theme is preserved across language changes
-    setTheme(localStorage.getItem("theme"));
-    
-    // Ensure language switcher stays in the header
-    ensureLanguageSwitcherPosition();
-  });
-  
-  // Ensure language switcher position
-  function ensureLanguageSwitcherPosition() {
-    const $languageSwitcher = $('#languageSwitcher');
-    if ($languageSwitcher.length) {
-      $languageSwitcher.css({
-        'position': 'static',
-        'display': 'inline-block'
-      });
-      
-      // Make sure it's inside the masthead
-      if (!$languageSwitcher.closest('.masthead').length) {
-        const $lastItem = $('.masthead .visible-links li:last');
-        if ($lastItem.length) {
-          $lastItem.before(
-            $('<li class="masthead__menu-item persist tail"></li>').append($languageSwitcher)
-          );
-        }
-      }
-    }
-  }
-  
-  // Call this on page load and periodically
-  ensureLanguageSwitcherPosition();
-  setInterval(ensureLanguageSwitcherPosition, 2000);
 
   // These should be the same as the settings in _variables.scss
   const scssLarge = 925; // pixels

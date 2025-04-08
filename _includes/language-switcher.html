@@ -1,5 +1,5 @@
 {% assign current_lang = site.data.translations[page.lang] | default: site.data.translations.en %}
-<div class="language-switcher" id="languageSwitcher">
+<div class="language-switcher">
   <button id="langToggle" class="btn btn--primary">
     <span class="lang-text">EN/中文</span>
   </button>
@@ -7,28 +7,25 @@
 
 <style>
 .language-switcher {
-  display: inline-block;
-  margin-left: 10px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 
 .language-switcher .btn {
-  padding: 0.5rem 0.8rem;
-  border-radius: 4px;
-  background-color: transparent;
-  color: var(--global-masthead-link-color);
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: white;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: 0.9em;
 }
 
 .language-switcher .btn:hover {
-  color: var(--global-masthead-link-color-hover);
-}
-
-/* Hide button style */
-.language-switcher.hidden {
-  display: none;
+  background-color: #0056b3;
+  transform: translateY(-2px);
 }
 </style>
 
@@ -36,81 +33,41 @@
 document.addEventListener('DOMContentLoaded', function() {
   const langToggle = document.getElementById('langToggle');
   const langText = langToggle.querySelector('.lang-text');
-  const languageSwitcher = document.getElementById('languageSwitcher');
   
-  // Get current language from localStorage
+  // 从 localStorage 获取当前语言设置
   let currentLang = localStorage.getItem('currentLang') || 'en';
   
-  // Update button text on load
-  updateButtonText();
-  
-  // Update button text function
+  // 更新按钮文本
   function updateButtonText() {
-    langText.textContent = currentLang === 'en' ? 'EN/中文' : '中文/EN';
+    langText.textContent = currentLang === 'en' ? '中文' : 'English';
   }
   
-  // Toggle language function
+  // 切换语言
   function toggleLanguage() {
     currentLang = currentLang === 'en' ? 'zh' : 'en';
     localStorage.setItem('currentLang', currentLang);
     updateButtonText();
     
-    // Get current page path and URL
+    // 获取当前页面路径
     const currentPath = window.location.pathname;
-    const currentUrl = window.location.href;
+    const isTranslated = currentPath.includes('-translated');
     
-    // Instead of redirecting, we'll use an event to notify other scripts
-    // that the language has changed
-    const event = new CustomEvent('languageChanged', {
-      detail: { language: currentLang }
-    });
-    document.dispatchEvent(event);
-    
-    // Add language to body class for CSS targeting
-    document.body.classList.remove('lang-en', 'lang-zh');
-    document.body.classList.add('lang-' + currentLang);
-    
-    console.log('Language toggled to: ' + currentLang);
-    
-    // Attempt to find language-specific version if it exists
-    // This is a simple implementation - you may need to customize for your site structure
-    if (currentLang === 'zh') {
-      // Try to find Chinese version
-      fetch(currentPath + 'index-zh.html')
-        .then(response => {
-          if (response.ok) {
-            window.location.href = currentPath + 'index-zh.html';
-          }
-        })
-        .catch(err => {
-          console.log('No Chinese version found, staying on current page');
-        });
-    } else {
-      // Try to find English version
-      if (currentPath.includes('index-zh.html')) {
-        window.location.href = currentPath.replace('index-zh.html', 'index.html');
-      }
+    // 根据当前语言设置决定是否跳转
+    if (currentLang === 'zh' && !isTranslated) {
+      // 切换到中文版本
+      const translatedPath = currentPath.replace(/\/([^\/]+)\/$/, '/$1-translated/');
+      window.location.href = translatedPath;
+    } else if (currentLang === 'en' && isTranslated) {
+      // 切换到英文版本
+      const originalPath = currentPath.replace('-translated', '');
+      window.location.href = originalPath;
     }
   }
   
-  // Add click event
-  langToggle.addEventListener('click', toggleLanguage);
+  // 初始化
+  updateButtonText();
   
-  // Make sure language switcher is never hidden by other scripts
-  // by periodically checking its visibility
-  setInterval(() => {
-    const computedStyle = window.getComputedStyle(languageSwitcher);
-    
-    // If positioned fixed or absolute, reset to proper display
-    if (computedStyle.position === 'fixed' || computedStyle.position === 'absolute') {
-      languageSwitcher.style.position = 'static';
-      languageSwitcher.style.display = 'inline-block';
-    }
-    
-    // If hidden, make visible
-    if (computedStyle.display === 'none') {
-      languageSwitcher.style.display = 'inline-block';
-    }
-  }, 1000);
+  // 添加点击事件
+  langToggle.addEventListener('click', toggleLanguage);
 });
 </script> 
