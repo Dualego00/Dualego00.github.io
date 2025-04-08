@@ -1,7 +1,7 @@
 {% assign current_lang = site.data.translations[page.lang] | default: site.data.translations.en %}
 <div class="language-switcher">
   <button id="langToggle" class="btn btn--primary">
-    <span class="lang-text">EN/中文</span>
+    <span class="lang-text">中文</span>
   </button>
 </div>
 
@@ -9,7 +9,7 @@
 .language-switcher {
   position: fixed;
   bottom: 20px;
-  right: 80px; /* 放在主题切换按钮左边 */
+  right: 20px;
   z-index: 1000;
 }
 
@@ -21,7 +21,6 @@
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: 14px;
 }
 
 .language-switcher .btn:hover {
@@ -40,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // 更新按钮文本
   function updateButtonText() {
-    langText.textContent = currentLang === 'en' ? 'EN/中文' : '中文/EN';
+    langText.textContent = currentLang === 'en' ? '中文' : 'English';
   }
   
   // 切换语言
