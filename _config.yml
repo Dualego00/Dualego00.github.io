@@ -6,16 +6,20 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
-# Basic Site Settings
-locale                   : "CN"
-site_theme               : "default"
-title                    : "Zhihao Qian / Personal Homepage"
-title_separator          : "-"
-name                     : &name "Zhihao Qian"
-description              : &description "a wanderer seeking horizons"
-url                      : https://qzh.im
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "dualego00/dualego00.github.io"
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale: "en-US"
+title: "Dualego00"
+subtitle: "Personal Homepage"
+name: "Dualego00"
+description: "Personal Homepage"
+url: "https://dualego00.github.io"
+repository: "Dualego00/Dualego00.github.io"
+logo: "assets/images/logo.png" # "/assets/images/logo.png"
+search: true
 
 # Language Settings
 languages:
@@ -27,11 +31,11 @@ languages:
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Zhihao Qian"
+  avatar           : "assets/images/logo.png" # "/assets/images/logo.png"
+  name             : "Dualego00"
   pronouns         : # example: "she/her"  
-  bio              : "a wanderer seeking horizons"
-  location         : "CN"
+  bio              : "A passionate researcher in computer science"
+  location         : "China"
   employer         : "Xidian University"
   uri              : # URL
   email            : "zhqian_1@stu.xidian.edu.cn" 
@@ -319,11 +323,11 @@ timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
   - jemoji
 
 # Mimic GitHub Pages with --safe
@@ -371,3 +375,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Disable reading time and social sharing
+reading_time: false
+share: false
