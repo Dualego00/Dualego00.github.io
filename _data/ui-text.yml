@@ -10,8 +10,6 @@ en: &DEFAULT_EN
   breadcrumb_separator       : "/"
   toc_label                  : "On This Page"
   ext_link_label             : "Direct Link"
-  less_than                  : "less than"
-  minute_read                : "minute read"
   share_on_label             : "Share on"
   meta_label                 :
   tags_label                 : "Tags:"
@@ -27,7 +25,6 @@ en: &DEFAULT_EN
   website_label              : "Website"
   email_label                : "Email"
   recent_posts               : "Recent Posts"
-  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
   comment_form_info          : "Your email address will not be published. Required fields are marked"
   comment_form_comment_label : "Comment"
   comment_form_md_info       : "Markdown is supported."
@@ -58,8 +55,6 @@ es: &DEFAULT_ES
   breadcrumb_separator       : "/"
   toc_label                  : "Contenidos"
   ext_link_label             : "Enlace"
-  less_than                  : "menos de"
-  minute_read                : "minuto de lectura"
   share_on_label             : "Compartir"
   meta_label                 :
   tags_label                 : "Etiquetas:"
@@ -75,7 +70,6 @@ es: &DEFAULT_ES
   website_label              : "Sitio web"
   email_label                : "Correo"
   recent_posts               : "Entradas recientes"
-  undefined_wpm              : "Parámetro words_per_minute (palabras por minuto) no definido en _config.yml"
   comment_form_info          : "No se publicará tu correo electrónico. Véanse marcados los campos obligatorios"
   comment_form_comment_label : "Comentario"
   comment_form_md_info       : "Markdown es compatible"
@@ -102,8 +96,6 @@ fr: &DEFAULT_FR
   breadcrumb_separator       : "/"
   toc_label                  : "Sur cette page"
   ext_link_label             : "Lien direct"
-  less_than                  : "plus petit que"
-  minute_read                : "minute de lecture"
   share_on_label             : "Partager sur"
   meta_label                 :
   tags_label                 : "Tags :"
@@ -119,7 +111,6 @@ fr: &DEFAULT_FR
   website_label              : "Site"
   email_label                : "Email"
   recent_posts               : "Posts récents"
-  undefined_wpm              : "Le paramètre words_per_minute n'est pas défini dans _config.yml"
   comment_form_info          :
   comment_form_comment_label :
   comment_form_md_info       :
@@ -148,8 +139,6 @@ tr: &DEFAULT_TR
   breadcrumb_separator       : "/"
   toc_label                  : "İçindekiler"
   ext_link_label             : "Doğrudan Bağlantı"
-  less_than                  : "Şu süreden az: "
-  minute_read                : "dakika tahmini okuma süresi"
   share_on_label             : "Paylaş"
   meta_label                 :
   tags_label                 : "Etiketler:"
@@ -165,7 +154,6 @@ tr: &DEFAULT_TR
   website_label              : "Web sayfası"
   email_label                : "E-posta"
   recent_posts               : "Son yazılar"
-  undefined_wpm              : "_config.yml dosyasında tanımlanmamış words_per_minute parametresi"
   comment_form_info          :
   comment_form_comment_label :
   comment_form_md_info       :
@@ -190,8 +178,6 @@ pt: &DEFAULT_PT
   breadcrumb_separator       : "/"
   toc_label                  : "Nesta página"
   ext_link_label             : "Link direto"
-  less_than                  : "menor que"
-  minute_read                : "minutos de leitura"
   share_on_label             : "Compartilhe em"
   meta_label                 :
   tags_label                 : "Tags:"
@@ -207,7 +193,6 @@ pt: &DEFAULT_PT
   website_label              : "Site"
   email_label                : "E-mail"
   recent_posts               : "Postagens recentes"
-  undefined_wpm              : "Parâmetro indefinido em word_per_minute no _config.yml"
   comment_form_info          : "Seu endereço de e-mail não será publicado. Campos obrigatórios são marcados"
   comment_form_comment_label : "Comentário"
   comment_form_md_info       : "Markdown é suportado"
@@ -234,8 +219,6 @@ it: &DEFAULT_IT
   breadcrumb_separator       : "/"
   toc_label                  : "Indice della pagina"
   ext_link_label             : "Link"
-  less_than                  : "meno di"
-  minute_read                : "minuto/i di lettura"
   share_on_label             : "Condividi"
   meta_label                 :
   tags_label                 : "Tags:"
@@ -251,7 +234,6 @@ it: &DEFAULT_IT
   website_label              : "Website"
   email_label                : "Email"
   recent_posts               : "Articoli Recenti"
-  undefined_wpm              : "Parametro words_per_minute non definito in _config.yml"
   comment_form_info          :
   comment_form_comment_label :
   comment_form_md_info       :
@@ -276,8 +258,6 @@ zh: &DEFAULT_ZH
   breadcrumb_separator       : "/"
   toc_label                  : "本页内容"
   ext_link_label             : "直接链接"
-  less_than                  : "少于"
-  minute_read                : "分钟阅读时长"
   share_on_label             : "分享到"
   meta_label                 :
   tags_label                 : "标签："
@@ -293,7 +273,6 @@ zh: &DEFAULT_ZH
   website_label              : "网站"
   email_label                : "电子邮件"
   recent_posts               : "最新文章"
-  undefined_wpm              : "_config.yml中未定义words_per_minute参数"
   comment_form_info          : "您的电子邮件地址不会被公开。（必填项已标注）"
   comment_form_comment_label : "评论"
   comment_form_md_info       : "支持Markdown格式"
@@ -318,8 +297,6 @@ zh-HK: &DEFAULT_ZH_HK
   breadcrumb_separator       : "/"
   toc_label                  : "本頁內容"
   ext_link_label             : "直接連結"
-  less_than                  : "少於"
-  minute_read                : "分鐘閱讀時長"
   share_on_label             : "分享到"
   meta_label                 :
   tags_label                 : "標籤："
@@ -335,7 +312,6 @@ zh-HK: &DEFAULT_ZH_HK
   website_label              : "網站"
   email_label                : "電子郵件"
   recent_posts               : "最新文章"
-  undefined_wpm              : "_config.yml中未定義words_per_minute參數"
   comment_form_info          : "您的電子郵件地址不會被公開。（必填項已標註）"
   comment_form_comment_label : "評論"
   comment_form_md_info       : "支持Markdown格式"

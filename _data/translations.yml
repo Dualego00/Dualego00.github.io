@@ -11,7 +11,6 @@ en:
     cv: "CV"
   common:
     read_more: "Read more"
-    read_time: "min read"
     posted_on: "Posted on"
     by: "by"
     categories: "Categories"
@@ -84,7 +83,6 @@ zh:
     cv: "简历"
   common:
     read_more: "阅读更多"
-    read_time: "分钟阅读"
     posted_on: "发布于"
     by: "作者"
     categories: "分类"
