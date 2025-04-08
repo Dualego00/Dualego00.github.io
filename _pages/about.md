@@ -15,13 +15,13 @@ My passion lies in fundamental scientific research in machine learning, deep lea
 
 Through my past research experiences, I have come to appreciate several valuable perspectives that guide my scientific approach:
 
-(1) Integrating physical insights into network design not only enhances interpretability but also improves final performance;
+* Integrating physical insights into network design not only enhances interpretability but also improves final performance;
 
-(2) Exploring adjacent fields often sparks inspiration and provides complementary knowledge that enriches my research;
+* Exploring adjacent fields often sparks inspiration and provides complementary knowledge that enriches my research;
 
-(3) I remain ever aware of the limits of my own understanding — with an overwhelming number of papers to read and an endless breadth of knowledge to explore, I am humbled and motivated by how much there is still to learn;
+* I remain ever aware of the limits of my own understanding — with an overwhelming number of papers to read and an endless breadth of knowledge to explore, I am humbled and motivated by how much there is still to learn;
 
-(4) The research journey is inherently non-linear — moments of insight are exhilarating, while discrepancies between expectations and outcomes are inevitable. Yet, it is precisely this process that makes scientific inquiry profoundly meaningful.
+* The research journey is inherently non-linear — moments of insight are exhilarating, while discrepancies between expectations and outcomes are inevitable. Yet, it is precisely this process that makes scientific inquiry profoundly meaningful.
 
 You can view my CV here: [Curriculum Vitae](../assets/ZhihaoQian_CV.pdf).  
 You can also find my Google Scholar profile here: [Google Scholar](https://scholar.google.com/citations?user=o83AL3sAAAAJ&amp;hl=en).  
