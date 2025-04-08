@@ -9,7 +9,7 @@ redirect_from:
 
 I am a third-year undergraduate student at Xidian University, majoring in Computer Science and Technology with a specialization in Big Data and Intelligence. I am currently seeking opportunities to pursue a PhD program, where I aim to engage in cutting-edge research in artificial intelligence. During my undergraduate studies, I have conducted research in the fields of deep learning and computer vision. 
 
-My passion lies in fundamental scientific research, driven by the desire to enjoy the pure intellectual joy of inquiry in AI — without the pressure of rushing to publish unfinished work or submitting premature results. 
+My passion lies in fundamental scientific research in machine learning, deep learning, and computer vision. I am driven by the desire to experience the pure intellectual joy of research in AI — without rushing into publishing unfinished work or submitting premature results.
 
 Through my past research experiences, I have come to appreciate several valuable perspectives that guide my scientific approach:
 (1) Integrating physical insights into network design not only enhances interpretability but also improves final performance;
