@@ -1,0 +1,26 @@
+---
+layout: translated-projects
+title: "项目经历"
+permalink: /projects-translated/
+author_profile: true
+collection: projects
+---
+
+{% include base_path %}
+
+<ul>
+  <li>
+    <strong>公共交通管理系统 - Android应用开发</strong><br>
+    <em>团队负责人</em><br>
+    2024年10月 - 2024年12月<br>
+    <ul>
+      <li>带领团队开发了一个全栈Android应用程序用于公共交通管理，使用了MySQL、Python、C++和Qt Creator等工具。</li>
+      <li>设计了一个针对项目需求的低冗余关系型数据库，并实现了一个具有强大人机交互能力的用户友好可视化界面。</li>
+      <li>提出了一个适用于类似结构轻量级管理系统的技术框架，使其易于扩展和在不同用例间移植。</li>
+    </ul>
+  </li>
+</ul>
+
+{% for post in site.projects %}
+  {% include archive-single.html %}
+{% endfor %} 

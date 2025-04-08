@@ -13,9 +13,14 @@ title                    : "Zhihao Qian / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Zhihao Qian"
 description              : &description "a wanderer seeking horizons"
-url                      : https://dualego00.github.io
+url                      : https://qzh.im
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dualego00/dualego00.github.io"
+
+# Language Settings
+languages:
+  - en
+  - zh
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -170,7 +175,6 @@ exclude:
   - assets/js/vendor
   - CHANGELOG
   - Capfile
-  - config
   - Dockerfile
   - Gemfile
   - Gruntfile.js
@@ -250,6 +254,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _teaching
   - scope:
       path: ""

@@ -1,0 +1,35 @@
+---
+layout: translated
+---
+
+<div class="page__content">
+  <div class="journal-papers">
+    <h2 data-translate="pages.publications.journal_papers">Journal Papers</h2>
+    {% for paper in page.journal_papers %}
+      <div class="paper">
+        <div class="paper-year" data-translate="pages.publications.year">Year</div>
+        <div class="paper-authors" data-translate="pages.publications.authors">Authors</div>
+        <div class="paper-title" data-translate="pages.publications.title">Title</div>
+        <div class="paper-venue" data-translate="pages.publications.venue">Venue</div>
+        <div class="paper-abstract" data-translate="pages.publications.abstract">Abstract</div>
+        <div class="paper-download" data-translate="pages.publications.download">Download</div>
+        {{ paper | markdownify }}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="conference-papers">
+    <h2 data-translate="pages.publications.conference_papers">Conference Papers</h2>
+    {% for paper in page.conference_papers %}
+      <div class="paper">
+        <div class="paper-year" data-translate="pages.publications.year">Year</div>
+        <div class="paper-authors" data-translate="pages.publications.authors">Authors</div>
+        <div class="paper-title" data-translate="pages.publications.title">Title</div>
+        <div class="paper-venue" data-translate="pages.publications.venue">Venue</div>
+        <div class="paper-abstract" data-translate="pages.publications.abstract">Abstract</div>
+        <div class="paper-download" data-translate="pages.publications.download">Download</div>
+        {{ paper | markdownify }}
+      </div>
+    {% endfor %}
+  </div>
+</div> 

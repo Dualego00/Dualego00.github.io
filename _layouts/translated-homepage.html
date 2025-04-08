@@ -1,0 +1,40 @@
+---
+layout: translated
+---
+
+<div class="page__content">
+  <div class="about-me">
+    <h2 data-translate="pages.personal_homepage.about_me">About Me</h2>
+    {{ content }}
+  </div>
+
+  <div class="research-interests">
+    <h2 data-translate="pages.personal_homepage.research_interests">Research Interests</h2>
+    {{ page.research_interests | markdownify }}
+  </div>
+
+  <div class="education">
+    <h2 data-translate="pages.personal_homepage.education">Education</h2>
+    {{ page.education | markdownify }}
+  </div>
+
+  <div class="experience">
+    <h2 data-translate="pages.personal_homepage.experience">Experience</h2>
+    {{ page.experience | markdownify }}
+  </div>
+
+  <div class="skills">
+    <h2 data-translate="pages.personal_homepage.skills">Skills</h2>
+    {{ page.skills | markdownify }}
+  </div>
+
+  <div class="languages">
+    <h2 data-translate="pages.personal_homepage.languages">Languages</h2>
+    {{ page.languages | markdownify }}
+  </div>
+
+  <div class="hobbies">
+    <h2 data-translate="pages.personal_homepage.hobbies">Hobbies</h2>
+    {{ page.hobbies | markdownify }}
+  </div>
+</div> 

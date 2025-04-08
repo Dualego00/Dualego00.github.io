@@ -1,0 +1,33 @@
+---
+layout: translated
+---
+
+<div class="page__content">
+  <div class="current-projects">
+    <h2 data-translate="pages.projects.current_projects">Current Projects</h2>
+    {% for project in page.current_projects %}
+      <div class="project">
+        <div class="project-title" data-translate="pages.projects.project_details">Project Details</div>
+        <div class="project-technologies" data-translate="pages.projects.technologies">Technologies Used</div>
+        <div class="project-role" data-translate="pages.projects.role">Role</div>
+        <div class="project-duration" data-translate="pages.projects.duration">Duration</div>
+        <div class="project-status" data-translate="pages.projects.status">Status</div>
+        {{ project | markdownify }}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="past-projects">
+    <h2 data-translate="pages.projects.past_projects">Past Projects</h2>
+    {% for project in page.past_projects %}
+      <div class="project">
+        <div class="project-title" data-translate="pages.projects.project_details">Project Details</div>
+        <div class="project-technologies" data-translate="pages.projects.technologies">Technologies Used</div>
+        <div class="project-role" data-translate="pages.projects.role">Role</div>
+        <div class="project-duration" data-translate="pages.projects.duration">Duration</div>
+        <div class="project-status" data-translate="pages.projects.status">Status</div>
+        {{ project | markdownify }}
+      </div>
+    {% endfor %}
+  </div>
+</div> 

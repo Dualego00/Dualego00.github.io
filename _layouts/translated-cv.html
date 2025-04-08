@@ -1,0 +1,61 @@
+---
+layout: translated
+---
+
+<div class="page__content">
+  <div class="personal-info">
+    <h2 data-translate="pages.cv.personal_info">Personal Information</h2>
+    <div class="contact">
+      <h3 data-translate="pages.cv.contact">Contact</h3>
+      <div class="address" data-translate="pages.cv.address">Address</div>
+      <div class="phone" data-translate="pages.cv.phone">Phone</div>
+      <div class="email" data-translate="pages.cv.email">Email</div>
+      {{ page.contact | markdownify }}
+    </div>
+  </div>
+
+  <div class="education-history">
+    <h2 data-translate="pages.cv.education_history">Education History</h2>
+    {{ page.education | markdownify }}
+  </div>
+
+  <div class="work-experience">
+    <h2 data-translate="pages.cv.work_experience">Work Experience</h2>
+    {{ page.experience | markdownify }}
+  </div>
+
+  <div class="research-experience">
+    <h2 data-translate="pages.cv.research_experience">Research Experience</h2>
+    {{ page.research | markdownify }}
+  </div>
+
+  <div class="publications">
+    <h2 data-translate="pages.cv.publications">Publications</h2>
+    {{ page.publications | markdownify }}
+  </div>
+
+  <div class="projects">
+    <h2 data-translate="pages.cv.projects">Projects</h2>
+    {{ page.projects | markdownify }}
+  </div>
+
+  <div class="skills">
+    <h2 data-translate="pages.cv.skills">Skills</h2>
+    {{ page.skills | markdownify }}
+  </div>
+
+  <div class="languages">
+    <h2 data-translate="pages.cv.languages">Languages</h2>
+    {{ page.languages | markdownify }}
+  </div>
+
+  <div class="certifications">
+    <h2 data-translate="pages.cv.certifications">Certifications</h2>
+    {{ page.certifications | markdownify }}
+  </div>
+
+  <div class="awards">
+    <h2 data-translate="pages.cv.awards">Awards</h2>
+    {{ page.awards | markdownify }}
+  </div>
+</div> 

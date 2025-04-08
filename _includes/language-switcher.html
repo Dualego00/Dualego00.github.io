@@ -1,0 +1,73 @@
+{% assign current_lang = site.data.translations[page.lang] | default: site.data.translations.en %}
+<div class="language-switcher">
+  <button id="langToggle" class="btn btn--primary">
+    <span class="lang-text">中文</span>
+  </button>
+</div>
+
+<style>
+.language-switcher {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.language-switcher .btn {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.language-switcher .btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const langToggle = document.getElementById('langToggle');
+  const langText = langToggle.querySelector('.lang-text');
+  
+  // 从 localStorage 获取当前语言设置
+  let currentLang = localStorage.getItem('currentLang') || 'en';
+  
+  // 更新按钮文本
+  function updateButtonText() {
+    langText.textContent = currentLang === 'en' ? '中文' : 'English';
+  }
+  
+  // 切换语言
+  function toggleLanguage() {
+    currentLang = currentLang === 'en' ? 'zh' : 'en';
+    localStorage.setItem('currentLang', currentLang);
+    updateButtonText();
+    
+    // 获取当前页面路径
+    const currentPath = window.location.pathname;
+    const isTranslated = currentPath.includes('-translated');
+    
+    // 根据当前语言设置决定是否跳转
+    if (currentLang === 'zh' && !isTranslated) {
+      // 切换到中文版本
+      const translatedPath = currentPath.replace(/\/([^\/]+)\/$/, '/$1-translated/');
+      window.location.href = translatedPath;
+    } else if (currentLang === 'en' && isTranslated) {
+      // 切换到英文版本
+      const originalPath = currentPath.replace('-translated', '');
+      window.location.href = originalPath;
+    }
+  }
+  
+  // 初始化
+  updateButtonText();
+  
+  // 添加点击事件
+  langToggle.addEventListener('click', toggleLanguage);
+});
+</script> 
