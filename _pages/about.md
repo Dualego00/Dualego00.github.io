@@ -15,8 +15,8 @@ My passion lies in fundamental scientific research in machine learning, deep lea
 
 I aspire to help make AI more interpretable and accessible, not only for researchers and practitioners, but also for the broader public. At the same time, this journey is personal: through research, I seek to better understand the relationship between myself and the world. I am drawn to the intellectual purity and depth of AI research, and I value the process of careful, thoughtful inquiry over rushing to publish premature results.
 
-You can view my CV here: [Curriculum Vitae](../assets/ZhihaoQian_CV.pdf).  
-You can read more of my personal statement here: [Personal Statement](../assets/Personal_Statement.pdf).
-You can also find my Google Scholar profile here: [Google Scholar](https://scholar.google.com/citations?user=o83AL3sAAAAJ&amp;hl=en).  
+You can view my CV here: [Curriculum Vitae](../assets/ZhihaoQian_CV.pdf).  <br>
+You can read more of my personal statement here: [Personal Statement](../assets/Personal_Statement.pdf).<br>
+You can also find my Google Scholar profile here: [Google Scholar](https://scholar.google.com/citations?user=o83AL3sAAAAJ&amp;hl=en).  <br>
 
 Feel free to contact me via email at: zhqian_1@stu.xidian.edu.cn.
