@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year undergraduate student at Xidian University, majoring in Computer Science and Technology with a specialization in Big Data and Intelligence. I am currently seeking opportunities to pursue a PhD program, where I aim to engage in cutting-edge research in artificial intelligence. 
+I am a third-year undergraduate student at Xidian University, majoring in Computer Science and Technology with a specialization in Big Data and Intelligence. I am currently seeking opportunities to pursue a Machine Learning PhD program in 2025Fall, where I aim to engage in cutting-edge research in artificial intelligence. 
 
 I have achieved the top academic rank in my major, authored/co-authored several research papers (published or under review), secured a Kaggle competition championship and completed the TOEFL to meet international academic requirements.  
 
