@@ -13,11 +13,11 @@ Education
 ======
 * BEng in Computer Science and Technology, Big Data and Intelligence Track, Xidian University, 2022-2026 (Expected)
   * GPA: 4.0/4.0
-  * Rank: 2/1500+ (first year), 1/476 (second year), 1/105 (third year)
+  * Rank: 2/1500+ (first year), 1/476 (second year), 1/106 (third year)
 
 Academic Research
 ======
-* LES-Talker: Fine-Grained Emotion Editing in Linear Emotion Space (First Author, Under Review at ICCV 2025)
+* LES-Talker: Fine-Grained Emotion Editing in Linear Emotion Space (First Author, Planned Submission to IEEE JSTSP)
   * Led the full research pipeline, from problem formulation to model design, experimentation, and paper writing
   * Proposed the Linear Emotion Space (LES), a novel interpretable framework enabling fine-grained emotion editing across types, intensities, and facial units
   * Designed LES-Talker with a universal Cross-Dimension Attention Network to align 3D model deformation with emotional control signals, achieving high-quality and controllable talking head generation
