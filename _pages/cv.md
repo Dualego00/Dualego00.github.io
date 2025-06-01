@@ -39,7 +39,7 @@ Projects Experience
   * Designed a low-redundancy relational database tailored to project needs, and implemented a user-friendly visual interface with strong human-computer interaction capabilities
   * Proposed a technical framework for lightweight management systems with similar structures, enabling easy expansion and portability across different use cases
 
-* [Exploration of Exploration of Direct Preference Optimization](../assets/DPO_discussion_zhihaoqian_CV.pdf)
+* [Exploration of Exploration of Direct Preference Optimization](../assets/DPO_discussion_zhihaoqian.pdf)
   * Exploring key conceptual challenges in Direct Preference Optimization through a question-and-answer format
   * Conducting a brief survey of Direct Preference Optimization from multiple perspectives
 
