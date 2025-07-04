@@ -17,7 +17,7 @@ Education
 
 Academic Research
 ======
-* LES-Talker: Fine-Grained Emotion Editing in Linear Emotion Space (First Author, Planned Submission to IEEE JSTSP)
+* LES-Talker: Fine-Grained Emotion Editing in Linear Emotion Space (First Author, Under Review at IEEE Affective Computing)
   * Led the full research pipeline, from problem formulation to model design, experimentation, and paper writing
   * Proposed the Linear Emotion Space (LES), a novel interpretable framework enabling fine-grained emotion editing across types, intensities, and facial units
   * Designed LES-Talker with a universal Cross-Dimension Attention Network to align 3D model deformation with emotional control signals, achieving high-quality and controllable talking head generation
@@ -27,7 +27,7 @@ Academic Research
   * Participated in the development and review of the Lip-Sync Enhancement Module, which integrates audio-temporal features and 3D representations to improve sync precision
   * Actively involved in technical discussions and rebuttal preparation, focusing on highlighting contributions and addressing reviewer feedback
 
-* EmoSpeaker: Emotion-Controlled Talking Face Generation (Co-author, Under Review at IEEE TMM)
+* EmoSpeaker: Emotion-Controlled Talking Face Generation (Co-author, Accepted at IEEE TMM)
   * Assisted in a one-shot framework capable of fine-grained emotional control and precise lip synchronization
   * Contributed to the design of an audio decoupling mechanism guided by facial attributes
   * Actively involved in paper revision and rebuttal writing, focusing on technical clarity, reviewer responses, and refinement of contributions
