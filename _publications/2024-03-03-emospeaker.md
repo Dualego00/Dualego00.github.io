@@ -1,7 +1,7 @@
 ---
 title: "EmoSpeaker: Emotion-Controlled Talking Face Generation"
 date: 2024-04-05
-authors: "Co-author (Under Review at IEEE TMM)"
+authors: "Co-author (Accepted at IEEE TMM)"
 venue: "IEEE Transactions on Multimedia (TMM)"
 status: "Under Review"
 period: "Nov. 2023 - Feb. 2025"
