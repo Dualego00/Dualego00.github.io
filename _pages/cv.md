@@ -17,7 +17,7 @@ Education
 
 Academic Research
 ======
-* LES-Talker: Fine-Grained Emotion Editing in Linear Emotion Space (First Author, Under Review at IEEE Affective Computing)
+* LES-Talker: Fine-Grained Emotion Editing in Linear Emotion Space (First Author, Accepted at IEEE Transaction on Affective Computing)
   * Led the full research pipeline, from problem formulation to model design, experimentation, and paper writing
   * Proposed the Linear Emotion Space (LES), a novel interpretable framework enabling fine-grained emotion editing across types, intensities, and facial units
   * Designed LES-Talker with a universal Cross-Dimension Attention Network to align 3D model deformation with emotional control signals, achieving high-quality and controllable talking head generation
