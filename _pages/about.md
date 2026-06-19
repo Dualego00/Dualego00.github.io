@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduating undergraduate student at Xidian University, majoring in Computer Science and Technology with a specialization in Big Data and Intelligence. I am currently seeking opportunities to pursue a PhD program in Fall 2027 after a gap year. 
+I recently graduated with a Bachelor of Engineering (B.Eng.) from Xidian University, majoring in Computer Science and Technology with a specialization in Big Data and Intelligence. I am currently on a gap year and seeking opportunities to pursue a PhD program in Fall 2027.
 
 I have achieved the top academic rank in my major, authored/co-authored several research papers (published or under review), secured a Kaggle competition championship and completed the TOEFL iBT to meet international academic requirements. Additionally, my previous dedicated efforts in studying chemistry (First Prize in the Chinese Chemistry Olympiad) and physics (scored 100 in University Physics) have given me broader horizons and a more interdisciplinary perspective.
 
