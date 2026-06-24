@@ -3,7 +3,7 @@ title: "LES-Talker: Fine-Grained Emotion Editing in Linear Emotion Space"
 date: 2024-04-05
 authors: "Co-first Author (Accepted at IEEE Transactions on Affective Computing)"
 venue: "IEEE Transactions on Affective Computing"
-status: "Under Review"
+status: "Accepted"
 period: "Apr. 2024 - May 2025"
 link: "https://peterfanfan.github.io/LES-Talker/"
 excerpt: |
