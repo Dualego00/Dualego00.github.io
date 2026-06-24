@@ -11,26 +11,35 @@ redirect_from:
 
 Education
 ======
-* BEng in Computer Science and Technology, Big Data and Intelligence Track, Xidian University, 2022-2026 (Expected)
+* BEng in Computer Science and Technology, Big Data and Intelligence Track, Xidian University, 2022-2026
   * GPA: 4.0/4.0
   * Rank: 2/1500+ (first year), 1/476 (second year), 1/106 (third year)
 
 Academic Research
 ======
-* LES-Talker: Fine-Grained Emotion Editing in Linear Emotion Space (First Author, Accepted at IEEE Transactions on Affective Computing)
+* [Chemical Reasoning with Reasoning-Oriented Large Language Models](https://qzh.im/assets/undergraduate_thesis.pdf) (Lead Researcher, Jun. 2025 - May 2026)
+  * Initial research supervised by [Prof. Shengchao Liu](https://chao1224.github.io/); undergraduate thesis advised by [Prof. Yunan Li](https://faculty.xidian.edu.cn/LIYUNAN/zh_CN/index.htm)
+  * Engineered training pipelines for LLMs of various scales across diverse HPC environments, including Compute Canada (SLURM), Shanghai AI Lab (MegCompute), and AutoDL
+  * Achieved about 80% of the predictive performance of trillion-parameter LLMs with less than 0.5% of their model parameters and less than 5% of their token consumption
+  * Explored explicit and latent chain-of-thought paradigms for chemical reasoning by reviewing LLM-based chemical reasoning, proposing latent-space mechanism dynamics, and completing the thesis with an Excellent grade
+
+* Multimodal-MOF: Metal-Organic Framework Design (Lead Researcher, Oct. 2025 - Feb. 2026)
+  * Conducted research under the supervision of [Prof. Shengchao Liu](https://chao1224.github.io/) and Prof. Zhiling (Zach) Zheng
+  * Built a pretraining pipeline for multi-modal MOF-related data, including data collection, cleaning, training, and evaluation
+  * Conducted exploratory trials toward downstream transfer, identifying key bottlenecks and refining the research direction based on preliminary findings
+
+* [LES-Talker: Fine-Grained Emotion Editing in Linear Emotion Space](https://peterfanfan.github.io/LES-Talker/) (Co-first Author, Accepted at IEEE Transactions on Affective Computing)
   * Led the full research pipeline, from problem formulation to model design, experimentation, and paper writing
   * Proposed the Linear Emotion Space (LES), a novel interpretable framework enabling fine-grained emotion editing across types, intensities, and facial units
   * Designed LES-Talker with a universal Cross-Dimension Attention Network to align 3D model deformation with emotional control signals, achieving high-quality and controllable talking head generation
 
-* KAN-Face: Efficient Resource Usage and Precision Lip-Sync (Co-author, Accepted at ICASSP 2025)
-  * Contributed to the design and refinement of a lightweight framework utilizing KANs for efficient and accurate talking head generation
-  * Participated in the development and review of the Lip-Sync Enhancement Module, which integrates audio-temporal features and 3D representations to improve sync precision
-  * Actively involved in technical discussions and rebuttal preparation, focusing on highlighting contributions and addressing reviewer feedback
+* [KAN-Face: Efficient Resource Usage and Precision Lip-Sync](https://ieeexplore.ieee.org/abstract/document/10888438) (Co-author, Published at ICASSP 2025)
+  * Contributed to the design of a lightweight framework utilizing KANs for efficient talking head generation
+  * Actively contributed to rebuttal preparation, focusing on highlighting contributions and addressing reviewer feedback
 
-* EmoSpeaker: Emotion-Controlled Talking Face Generation (Co-author, Accepted at IEEE TMM)
+* [EmoSpeaker: Emotion-Controlled Talking Face Generation](https://peterfanfan.github.io/EmoSpeaker/) (Co-author, Accepted at IEEE Transactions on Multimedia)
   * Assisted in a one-shot framework capable of fine-grained emotional control and precise lip synchronization
-  * Contributed to the design of an audio decoupling mechanism guided by facial attributes
-  * Actively involved in paper revision and rebuttal writing, focusing on technical clarity, reviewer responses, and refinement of contributions
+  * Contributed to revision and rebuttal writing, focusing on technical clarity and supplementary experiments
 
 Projects Experience
 ======
