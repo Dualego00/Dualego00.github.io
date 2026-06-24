@@ -14,7 +14,7 @@ I have achieved the top academic rank in my major, authored/co-authored several 
 1. My interests lie in machine learning and deep learning research oriented towards hardcore mathematics, such as developing novel generative models and exploring the mechanistic interpretation of LLMs.
    > There is a reason for this: the "claims" in many papers make me feel unconvinced, whereas mathematics makes me feel reassured.
 2. I am committed to forming my own line of research through a long-term research career, ultimately possessing the capabilities of an independent researcher, while also being able to adapt to industrial research collaborations.
-   > paper reading, GPUs, cooperation, funding, paper writing, rebuttal, project management etc.
+   > GPUs, cooperation, funding, paper reading, paper writing, rebuttal, project management etc.
 3. I hope my research is conducive to the improvement of actual productivity, or genuinely provides it with new perspectives and new solutions.
    > Rooting in the actual real-world industrial background is the only way to better serve this goal. The current issue lies in GPUs and computing power; for example: Qwen3-0.6B and Qwen3-8B, simple scaling up will lead to vastly different machine behaviors.
 
